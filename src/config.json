@@ -1,0 +1,20 @@
+{
+    "appDirectory" : "~/apps/myApp",
+    "repositoryUrl" : "git@github.com:Stratiz/redeployer.git",
+    "repository" : {
+        "owner" : "Stratiz",
+        "name" : "redeployer",
+        "branch" : "main",
+        "gitUrl" : "git@github.com:Stratiz/Eden.git"
+    },
+    "commands" : {
+        "build" : "npm run build",
+        "start" : "npx next start -p 80"
+    },
+    "ssh" : {
+        "keyLocation" : "~/.ssh/id_rsa"
+    },
+    "preservedFiles" : [
+       ".env"
+    ]
+}

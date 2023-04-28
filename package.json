@@ -1,0 +1,26 @@
+{
+  "name": "redeployer",
+  "version": "1.0.0",
+  "description": "Easy automatic re-deploy system for JavaScript apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stratiz/redeployer.git"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "Harrison L.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stratiz/redeployer/issues"
+  },
+  "homepage": "https://github.com/Stratiz/redeployer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2"
+  }
+}
